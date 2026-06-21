@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lists</title>
+
+    <style>
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 25px;
+            
+        }
+
+        #cont {
+            background-color: black;
+            height: 100vh;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        
+        .main1 {
+            margin-top: 200px;
+            background-color: white;
+            height: 500px;
+            width: 400px;
+            padding: 20px 20px;
+            margin-top: 160px;
+            margin-right: 30px;
+            
+            
+        }
+
+        .main2 {
+            margin-top: 200px;
+            background-color: white;
+            height: 500px;
+            width: 400px;
+            padding: 20px 20px;
+            margin-top: 160px;
+           
+            
+            
+            
+        }
+
+        .main3 {
+            margin-top: 200px;
+            background-color: white;
+            height: 500px;
+            width: 400px;
+            padding: 20px 20px;
+            margin-top: 160px;
+            margin-left: 30px;
+            
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="cont">
+        <div class="main1">
+            <ul type="disk">
+                <li>rohan</li>
+                <li>rakin</li>
+                <li>emon</li>
+            </ul>
+
+            <ul type="circle">
+                <li>mango</li>
+                <li>banana</li>
+                <li>orange</li>
+            </ul>
+
+             <ul type="square">
+                <li>tiger</li>
+                <li>duck</li>
+                <li>parrot</li>
+            </ul>
+
+        </div>
+<!-- ----------------------------------------------------------------------- -->
+        <div class="main2">
+            <ol type="1">
+                <li>rohan</li>
+                <li>rakin</li>
+                <li>emon</li>
+            </ol>
+
+            <ol type="A">
+                <li>mango</li>
+                <li>banana</li>
+                <li>orange</li>
+            </ol>
+
+            <ol type="i">
+                <li>tiger</li>
+                <li>duck</li>
+                <li>parrot</li>
+            </ol>
+        </div>
+<!-- ----------------------------------------------------------------------- -->
+        <div class="main3">
+            <ol reversed>
+                <li>rohan</li>
+                <li>rakin</li>
+                <li>emon</li>
+            </ol>
+
+            <ol type="1" start="10">
+                <li>mango</li>
+                <li>banana</li>
+                <li>orange</li>
+            </ol>
+
+        </div>
+
+    </div>
+</body>
+</html>

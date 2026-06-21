@@ -1,0 +1,23 @@
+01-06-2026
+--------------------------------------
+1) just setting things up :)
+--------------------------------------
+
+
+<ol type="">
+                <li>rohan</li>
+                <li>rakin</li>
+                <li>emon</li>
+            </ol>
+
+            <ol type="">
+                <li>rohan</li>
+                <li>rakin</li>
+                <li>emon</li>
+            </ol>
+
+            <ol type="">
+                <li>rohan</li>
+                <li>rakin</li>
+                <li>emon</li>
+            </ol>
